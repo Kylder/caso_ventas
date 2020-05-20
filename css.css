@@ -1,0 +1,273 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    margin: 0 auto;
+    width: 1800px;
+    padding-top: 150px;
+}
+#contenedor
+{
+    /* width: 900; */   
+    margin: 0 auto  ;
+}
+
+#hoja1
+{
+    width: 1300px;
+    height: 900px;
+    background-color: whitesmoke; 
+    float: left ;
+}
+#hoja2
+{
+    width: 500px;
+    height: 900px;
+    background-color: whitesmoke;
+    float: right;
+    /* display: flex; */
+}
+.box
+{
+    position: relative;
+    width: 500px;
+    height: 50px;
+    left: 250px;
+    top: 0;
+    font-size: 20px;
+    padding-left: 15px;
+    font-family: 'Balsamiq Sans', cursive;
+    border: 1px solid blue;
+
+}
+.text
+{
+    position: relative;
+    width: 500px;
+    left: 50px;
+    top: 30px;
+    font-size: 25px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+#contenido
+{
+
+    width: 1200px;
+    display: flex;
+    border: 2px;
+    color: black;
+    /* padding-left: 50px;     */
+}
+.boxes
+{
+    position: relative;
+    width: 1200px;
+    height: 150px;
+    background-color:whitesmoke;
+    /* background-color: grey; */
+    left: 50px;
+}
+.boxes1
+{
+    position: relative;
+    width: 1200px;
+    height: 350px;
+    /* background-color:whitesmoke; */
+    left: 50px;
+    display: flex;
+}
+.tabla
+{
+    width: 150px;
+    height: 100px;
+    background-color: cadetblue;
+}
+#hed
+{
+    width: 1200px;
+    height: 150px;
+    
+}
+.cajita
+{
+    position: relative;
+    width: 460px;
+    height: 140px;
+    background-color: red;
+    font-size: 60px;
+    color: aliceblue;
+    top: 30px;
+    line-height: 140px;
+    text-align: center;
+}
+.cajitas
+{
+    width: 460px;
+    height: 140px;
+    background-color: white;
+}
+.bbox
+{
+    position: relative;
+    height: 55px;
+    text-align: center;
+    padding: 10px 0px;
+    margin: 20px;
+    font-size: 1.25em;
+    display: inline-block;
+    color: white;
+    background-color:skyblue ;
+    text-decoration: none;
+    left: 400px;
+    width: 220px;
+    top: 20px;
+    border: none;
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    transition-duration: 0.8s;
+
+}
+.bbox1
+{
+    width: 220px;
+    position: relative;
+    height: 55px;
+    top: 20px;
+    text-align: center;
+    padding: 10px 10px;
+    margin: 20px;
+    font-size: 1.25em;
+    display: inline-block;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    left: 400px;
+    border: none;
+    /* font-family: 'Balsamiq Sans', cursive; */
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    transition-duration: 0.8s;
+}
+.bbox:hover
+{
+    background-color: cadetblue;
+    color: white;
+}
+.bbox1:hover
+{
+    background-color: crimson;
+    color: white;
+}
+.texto
+{
+    position: relative;
+    /* width: 500px; */
+    left: 20px;
+    top: 50px;
+    font-size: 25px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.texto1
+{
+    position: relative;
+    /* width: 500px; */
+    left: 15px;
+    top: 50px;
+    font-size: 25px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.subcajita1
+{
+    width: 230px;
+    float: left;
+    /* background-color: black; */
+}
+.subcajita2
+{
+    width: 230px;
+    float: right;
+    /* background-color: black; */
+}
+.boxx
+{
+    position: relative;
+    width: 170px;
+    height: 50px;
+    left: 20px;
+    top: 20px;
+    font-size: 20px;
+    padding-left: 15px;
+    font-family: 'Balsamiq Sans', cursive;
+    border: 1px solid blue;
+}
+.btexto
+{
+    position: relative;
+    /* width: 500px; */
+    left: 20px;
+    top: 60px;
+    font-size: 25px;
+    font-family: 'Balsamiq Sans', cursive;
+    width: 200px;
+    height: 50px;
+    border: 1px solid blue;
+    background-color: aliceblue;
+}
+.boxx1
+{
+    position: relative;
+    width: 170px;
+    height: 50px;
+    left: 40px;
+    top: 20px;
+    font-size: 20px;
+    padding-left: 15px;
+    font-family: 'Balsamiq Sans', cursive;
+    border: 1px solid blue;
+}
+.texto0
+{
+    position: relative;
+    /* width: 500px; */
+    /* left: 20px; */
+    /* top: 50px; */
+    font-size: 25px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.boxx0
+{
+
+    position: relative;
+    width: 380px;
+    height: 50px;
+    left: 20px;
+    top: 20px;
+    font-size: 20px;
+    padding-left: 15px;
+    font-family: 'Balsamiq Sans', cursive;
+    border: 1px solid blue;
+}
+.subcaja
+{
+    width: 170px;
+    float: left;
+}
+.subcaja0
+{
+    width: 170px;
+    float: right;
+}
+.fac
+{
+    position: relative;
+    font-family: 'Balsamiq Sans', cursive;
+    left: 20px;
+    top: 20px;
+    font-size: 20px;
+}
